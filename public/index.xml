@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>アルドの備忘録</title>
+		<link>http://localhost:1313/</link>
+		<description>Recent content on アルドの備忘録</description>
+		<generator>Hugo</generator>
+		<language>ja-jp</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 25 Aug 2026 20:19:49 +0900</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>開設したよ</title>
+				<link>http://localhost:1313/posts/main/</link>
+				<pubDate>Tue, 25 Aug 2026 20:19:49 +0900</pubDate>
+				<guid>http://localhost:1313/posts/main/</guid>
+				<description>&lt;h2 id=&#34;はじめに&#34;&gt;はじめに&lt;/h2&gt;&#xA;&lt;p&gt;これはHugoで作成した最初の記事です。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;このブログについて&#34;&gt;このブログについて&lt;/h2&gt;&#xA;&lt;p&gt;ITスキル、動画制作、その他趣味のことなど、自分の経験を備忘録としてまとめていく予定です。&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;自己紹介&#34;&gt;自己紹介&lt;/h2&gt;&#xA;&lt;h4 id=&#34;名前アルド&#34;&gt;名前：アルド&lt;/h4&gt;&#xA;&lt;p&gt;英語ではAldo。特に由来はない。&lt;/p&gt;&#xA;&lt;h4 id=&#34;職業会社員&#34;&gt;職業：会社員&lt;/h4&gt;&#xA;&lt;p&gt;国内メーカーにて、エンジニアとして勤務。&lt;br&gt;&#xA;インフラ・クラウド・ネットワークエンジニアとして、自社製品のテスト・評価、市場不具合調査の環境構築を担当。&lt;br&gt;&#xA;その他、Power AutomateやCopilotチャットボットを活用した業務効率化の自動化システムを開発。&lt;br&gt;&#xA;ゼロではないものの、WebページやWebアプリの開発は未熟。&lt;/p&gt;&#xA;&lt;h4 id=&#34;趣味ゲームyoutube旅行&#34;&gt;趣味：ゲーム・Youtube・旅行&lt;/h4&gt;&#xA;&lt;p&gt;趣味は、ゲームと旅行。&lt;br&gt;&#xA;ゲームは、ハマった作品をやり込むタイプ。&lt;br&gt;&#xA;実は、YouTubeで攻略・解説動画を投稿していたりする。&lt;br&gt;&#xA;それゆえに、画像・動画編集ができたりする。&lt;br&gt;&#xA;旅行は、国内外問わず、現地のグルメや建築、文化財を楽しむタイプ。&lt;br&gt;&#xA;海外1人旅が好き（友達がいないわけではないよ）&#xA;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+			</item>
+	</channel>
+</rss>

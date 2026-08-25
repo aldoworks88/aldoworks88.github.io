@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>開設したよ | アルドの備忘録</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="はじめに
+これはHugoで作成した最初の記事です。
+このブログについて
+ITスキル、動画制作、その他趣味のことなど、自分の経験を備忘録としてまとめていく予定です。
+自己紹介
+名前：アルド
+英語ではAldo。特に由来はない。
+職業：会社員
+国内メーカーにて、エンジニアとして勤務。
+インフラ・クラウド・ネットワークエンジニアとして、自社製品のテスト・評価、市場不具合調査の環境構築を担当。
+その他、Power AutomateやCopilotチャットボットを活用した業務効率化の自動化システムを開発。
+ゼロではないものの、WebページやWebアプリの開発は未熟。
+趣味：ゲーム・Youtube・旅行
+趣味は、ゲームと旅行。
+ゲームは、ハマった作品をやり込むタイプ。
+実は、YouTubeで攻略・解説動画を投稿していたりする。
+それゆえに、画像・動画編集ができたりする。
+旅行は、国内外問わず、現地のグルメや建築、文化財を楽しむタイプ。
+海外1人旅が好き（友達がいないわけではないよ）
+">
+    <meta name="generator" content="Hugo 0.165.0">
+    
+    
+    
+      <meta name="robots" content="noindex, nofollow">
+    
+    
+
+    <link rel="stylesheet" href="/ananke/css/main.css">
+    <script>
+  (function () {
+    "use strict";
+
+    
+    
+    function revealButtons() {
+      var buttons = document.querySelectorAll(".code-block .code-copy[hidden]");
+      for (var i = 0; i < buttons.length; i++) {
+        buttons[i].hidden = false;
+      }
+    }
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", revealButtons);
+    } else {
+      revealButtons();
+    }
+
+    function flash(button) {
+      var label = button.querySelector(".code-copy-label");
+      var previous = label ? label.textContent : null;
+      button.classList.add("is-copied");
+      if (label) label.textContent = "Copied";
+      window.setTimeout(function () {
+        button.classList.remove("is-copied");
+        if (label && previous !== null) label.textContent = previous;
+      }, 2000);
+    }
+
+    function legacyCopy(text) {
+      var area = document.createElement("textarea");
+      area.value = text;
+      area.setAttribute("readonly", "");
+      area.style.position = "absolute";
+      area.style.left = "-9999px";
+      document.body.appendChild(area);
+      area.select();
+      var ok = false;
+      try {
+        ok = document.execCommand("copy");
+      } catch (e) {
+        ok = false;
+      }
+      document.body.removeChild(area);
+      return ok;
+    }
+
+    function copyFrom(button) {
+      var container = button.closest(".code-block");
+      if (!container) return;
+      var pre = container.querySelector("pre");
+      if (!pre) return;
+      var source = pre.querySelector("code") || pre;
+      var text = source.innerText;
+
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(text).then(
+          function () { flash(button); },
+          function () { if (legacyCopy(text)) flash(button); }
+        );
+      } else if (legacyCopy(text)) {
+        flash(button);
+      }
+    }
+
+    document.addEventListener("click", function (event) {
+      var button = event.target.closest(".code-copy");
+      if (button) copyFrom(button);
+    });
+  })();
+</script>
+
+    
+      
+
+    
+
+    
+
+    
+      <link rel="canonical" href="http://localhost:1313/posts/main/">
+    
+
+    
+    
+    <meta property="og:url" content="http://localhost:1313/posts/main/">
+	<meta property="og:site_name" content="アルドの備忘録">
+	<meta property="og:title" content="開設したよ">
+	<meta property="og:description" content="はじめに これはHugoで作成した最初の記事です。
+このブログについて ITスキル、動画制作、その他趣味のことなど、自分の経験を備忘録としてまとめていく予定です。
+自己紹介 名前：アルド 英語ではAldo。特に由来はない。
+職業：会社員 国内メーカーにて、エンジニアとして勤務。
+インフラ・クラウド・ネットワークエンジニアとして、自社製品のテスト・評価、市場不具合調査の環境構築を担当。
+その他、Power AutomateやCopilotチャットボットを活用した業務効率化の自動化システムを開発。
+ゼロではないものの、WebページやWebアプリの開発は未熟。
+趣味：ゲーム・Youtube・旅行 趣味は、ゲームと旅行。
+ゲームは、ハマった作品をやり込むタイプ。
+実は、YouTubeで攻略・解説動画を投稿していたりする。
+それゆえに、画像・動画編集ができたりする。
+旅行は、国内外問わず、現地のグルメや建築、文化財を楽しむタイプ。
+海外1人旅が好き（友達がいないわけではないよ）">
+	<meta property="og:locale" content="ja_jp">
+	<meta property="og:type" content="article">
+		<meta property="article:section" content="posts">
+		<meta property="article:published_time" content="2026-08-25T20:19:49+09:00">
+		<meta property="article:modified_time" content="2026-08-25T20:19:49+09:00">
+
+	<meta itemprop="name" content="開設したよ">
+	<meta itemprop="description" content="はじめに これはHugoで作成した最初の記事です。
+このブログについて ITスキル、動画制作、その他趣味のことなど、自分の経験を備忘録としてまとめていく予定です。
+自己紹介 名前：アルド 英語ではAldo。特に由来はない。
+職業：会社員 国内メーカーにて、エンジニアとして勤務。
+インフラ・クラウド・ネットワークエンジニアとして、自社製品のテスト・評価、市場不具合調査の環境構築を担当。
+その他、Power AutomateやCopilotチャットボットを活用した業務効率化の自動化システムを開発。
+ゼロではないものの、WebページやWebアプリの開発は未熟。
+趣味：ゲーム・Youtube・旅行 趣味は、ゲームと旅行。
+ゲームは、ハマった作品をやり込むタイプ。
+実は、YouTubeで攻略・解説動画を投稿していたりする。
+それゆえに、画像・動画編集ができたりする。
+旅行は、国内外問わず、現地のグルメや建築、文化財を楽しむタイプ。
+海外1人旅が好き（友達がいないわけではないよ）">
+	<meta itemprop="datePublished" content="2026-08-25T20:19:49+09:00">
+	<meta itemprop="dateModified" content="2026-08-25T20:19:49+09:00">
+	<meta itemprop="wordCount" content="20">
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:title" content="開設したよ">
+	<meta name="twitter:description" content="はじめに これはHugoで作成した最初の記事です。
+このブログについて ITスキル、動画制作、その他趣味のことなど、自分の経験を備忘録としてまとめていく予定です。
+自己紹介 名前：アルド 英語ではAldo。特に由来はない。
+職業：会社員 国内メーカーにて、エンジニアとして勤務。
+インフラ・クラウド・ネットワークエンジニアとして、自社製品のテスト・評価、市場不具合調査の環境構築を担当。
+その他、Power AutomateやCopilotチャットボットを活用した業務効率化の自動化システムを開発。
+ゼロではないものの、WebページやWebアプリの開発は未熟。
+趣味：ゲーム・Youtube・旅行 趣味は、ゲームと旅行。
+ゲームは、ハマった作品をやり込むタイプ。
+実は、YouTubeで攻略・解説動画を投稿していたりする。
+それゆえに、画像・動画編集ができたりする。
+旅行は、国内外問わず、現地のグルメや建築、文化財を楽しむタイプ。
+海外1人旅が好き（友達がいないわけではないよ）">
+
+	
+  </head><body class="ma0 avenir bg-near-white development is-page is-page page-Main">
+   
+  
+
+
+  <header>
+    <div class="bg-black">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l center items-center justify-between">
+    <a href="/" class="f3 fw2 hover-white white-90 dib no-underline">
+      
+        アルドの備忘録
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+      <div class="ananke-socials"></div>
+
+    </div>
+  </div>
+</nav>
+
+    </div>
+  </header>
+
+
+<main class="pb7" role="main">
+  
+
+  <article class="page-Main flex-l mw7 center ph3 flex-wrap justify-between">
+    <header class="mt4 w-100"><aside class="instapaper_ignoref b helvetica tracked ttu">
+    <a class="link dim" href="http://localhost:1313/posts/">Posts</a>
+  </aside><div id="sharing" class="mt3 ananke-socials"></div>
+<h1 class="f1 athelas mt3 mb1">開設したよ</h1>
+      
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2026-08-25T20:19:49+09:00">8月 25, 2026</time>
+      
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links mid-gray pr4-l w-100-l"><h2 id="はじめに">はじめに</h2>
+<p>これはHugoで作成した最初の記事です。<!-- raw HTML omitted --></p>
+<h2 id="このブログについて">このブログについて</h2>
+<p>ITスキル、動画制作、その他趣味のことなど、自分の経験を備忘録としてまとめていく予定です。<!-- raw HTML omitted --></p>
+<h2 id="自己紹介">自己紹介</h2>
+<h4 id="名前アルド">名前：アルド</h4>
+<p>英語ではAldo。特に由来はない。</p>
+<h4 id="職業会社員">職業：会社員</h4>
+<p>国内メーカーにて、エンジニアとして勤務。<br>
+インフラ・クラウド・ネットワークエンジニアとして、自社製品のテスト・評価、市場不具合調査の環境構築を担当。<br>
+その他、Power AutomateやCopilotチャットボットを活用した業務効率化の自動化システムを開発。<br>
+ゼロではないものの、WebページやWebアプリの開発は未熟。</p>
+<h4 id="趣味ゲームyoutube旅行">趣味：ゲーム・Youtube・旅行</h4>
+<p>趣味は、ゲームと旅行。<br>
+ゲームは、ハマった作品をやり込むタイプ。<br>
+実は、YouTubeで攻略・解説動画を投稿していたりする。<br>
+それゆえに、画像・動画編集ができたりする。<br>
+旅行は、国内外問わず、現地のグルメや建築、文化財を楽しむタイプ。<br>
+海外1人旅が好き（友達がいないわけではないよ）
+<!-- raw HTML omitted --></p>
+<ul class="pa0">
+  
+</ul><ul class="pa0">
+  
+</ul>
+
+      
+    </div></article>
+</main><footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white white-70 dn dib-ns pv2 ph3 no-underline" href="http://localhost:1313/" >
+    &copy;  アルドの備忘録 2026 
+  </a>
+    <div><div class="ananke-socials"></div>
+</div>
+  </div>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

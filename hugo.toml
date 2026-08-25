@@ -1,0 +1,4 @@
+baseURL = 'https://aldoworks88.github.io/'
+languageCode = 'ja-jp'
+title = 'アルドの備忘録'
+theme = 'ananke'
