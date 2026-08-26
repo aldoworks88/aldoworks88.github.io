@@ -36,7 +36,7 @@ ITスキル、動画制作、趣味について、学んだことや経験した
 
 名前：アルド  
 職業：会社員  
-趣味：ゲーム・Youtube・旅行  
+趣味：ゲーム・YouTube・旅行  
 
 <a href="/aboutme/" class="profile-button">
     プロフィール詳細はこちら

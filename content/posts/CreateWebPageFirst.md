@@ -120,7 +120,7 @@ git init                //Gitリポジトリとして初期化
 
 Git Submoduleコマンドで、テーマを追加する。  
 （例）Anankeテーマを追加する。  
-```powershell
+```text
 git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
 ```
 <br>
