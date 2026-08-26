@@ -1,0 +1,13 @@
+.profile-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid currentColor;
+}
+
+.profile-button:hover {
+    opacity: 0.8;
+}
+
