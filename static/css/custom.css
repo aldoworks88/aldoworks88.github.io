@@ -7,7 +7,24 @@
     border: 1px solid currentColor;
 }
 
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li {
+    font-family: "Meiryo", "メイリオ", sans-serif;
+}
+
 .profile-button:hover {
     opacity: 0.8;
+}
+
+.article-image {
+    border: 2px solid black;
 }
 

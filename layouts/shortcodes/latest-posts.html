@@ -1,0 +1,17 @@
+{{ range first 1 (where .Site.RegularPages "Section" "posts") }}
+<article class="latest-post">
+
+  <h3>
+    <a href="{{ .RelPermalink }}">
+      {{ .Title }}
+    </a>
+  </h3>
+
+  <p>{{ .Date.Format "2006年01月02日" }}</p>
+
+  {{ with .Description }}
+  <p>{{ . }}</p>
+  {{ end }}
+
+</article>
+{{ end }}

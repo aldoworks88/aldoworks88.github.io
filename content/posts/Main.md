@@ -19,16 +19,19 @@ ITスキル、動画制作、趣味について、学んだことや経験した
 <br><br><br>
 
 ## 主なテーマ
+
 - IT技術  
 - 画像・動画編集  
 - 旅行  
 <br><br><br>
 
 ## 最新の記事
-準備中...
+
+{{< latest-posts >}}
 <br><br><br>
 
 ## 自己紹介
+
 <img src="/images/Aldo_Icon00.png" width="100">
 
 名前：アルド  
