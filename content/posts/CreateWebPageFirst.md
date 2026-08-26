@@ -101,16 +101,16 @@ Sass/SCSSをCSSに変換するLibSassをサポートしているということ�
 PowerShellで、ブログを置きたい場所に移動します。  
 （例）ドキュメント>Blogsに作成する。  
 ```powershell
-cd Documents/Blogs      //Blogsディレクトリへ移動
+cd Documents/Blogs      #Blogsディレクトリへ移動
 ```
 <br>
 
 Hugoコマンドで新しいサイトを作成し、初期化する。  
 （例）myblogを作成する。 
 ```powershell
-hugo new site myblog    //myblogというHugoサイトのひな型を新規作成
-cd myblog               //myblogディレクトリへ移動
-git init                //Gitリポジトリとして初期化
+hugo new site myblog    #myblogというHugoサイトのひな型を新規作成
+cd myblog               #myblogディレクトリへ移動
+git init                #Gitリポジトリとして初期化
 ```
 これで、ブログのフォルダ構成を作成できました。
 <br><br><br>
@@ -149,9 +149,9 @@ hugo new content posts/hello-world.md
 それでは、実際にブラウザで確認してみましょう。  
 <br>
 
-Hudoコマンドで、サイトを起動する。
+Hugoコマンドで、サイトを起動する。
 ```powershell
-hugo server -D          //ローカルPC上で確認するためコマンド
+hugo server -D             #ローカルPC上で確認するためコマンド
 ```
 <br>
 
