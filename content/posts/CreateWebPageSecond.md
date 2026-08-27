@@ -10,7 +10,7 @@ description: "Hugoで作成したWebサイトをGitHub Pagesで一般公開す�
 
 Hugoで作成したWebサイトをGitHub Pagesでの一般公開までの手順をまとめました。  
 ※前回の記事はこちら↓   
-[HugoでWebサイトを作ってみた①｜Windowsでサイトを作成するまで](/posts/CreateWebPageFirst/)
+[HugoでWebサイトを作ってみた①｜Windowsでサイトを作成するまで](/posts/createwebpagefirst/)
 <br>
 <br>
 
