@@ -1,4 +1,4 @@
-{{ range first 1 (where .Site.RegularPages "Section" "posts") }}
+{{ range first 2 (where .Site.RegularPages "Section" "posts") }}
 <article class="latest-post">
 
   <h3>
@@ -12,6 +12,8 @@
   {{ with .Description }}
   <p>{{ . }}</p>
   {{ end }}
-
+  <br>
+  <br>
+  
 </article>
 {{ end }}

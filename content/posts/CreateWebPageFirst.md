@@ -1,31 +1,38 @@
 ---
-title: 'HugoでWebサイトを作成し、GitHub Pagesで公開してみた（前編）'
+title: 'HugoでWebサイトを作ってみた①｜Windowsでサイトを作成するまで'
 date: '2026-08-26T10:55:28+09:00'
 tags: ['Web制作', 'Git', 'Hugo']
 featured_image: ""
-description: "Windows環境でHugoを使ってWebサイトを作成し、GitHub Pagesで一般公開するまでの手順をまとめます"
+description: "Windows環境でHugoを使ってWebサイトを作成する手順をまとめます"
 ---
 
 ## この記事の内容
 
-Git、Hugoの導入から、GitHub Pagesでの一般公開までの手順をまとめました。  
-<br><br>
+Git、Hugoの導入から、Hugoを使ってWebサイトを作成する手順をまとめました。  
+次回の記事はこちら↓  
+[HugoでWebサイトを作ってみた②｜GitHub Pagesで一般公開するまで](/posts/CreateWebPageSecond/)  
+<br>
+<br>
 
 <!--more-->
 
 ## はじめに
 
 学んだこと、経験したことを記録しておきたいと考え、自分のWebページ作成に着手しました。  
-知識の整理ができるし、後で見返すこともできる ＋ 誰かの役に立てばと思いまして…笑  
+知識の整理ができるし、後で見返すこともできる。  
+その上で、誰かの役に立てばと思いまして…笑  
+
 ということで、本ページを作成しましたので、その手順についてまとめました。
-<br><br>
+<br>
+<br>
 
 ## 今回使用した環境
 - Windows 11 (25H2)
 - Git (2.55.0)
 - Hugo (v0.165.0)
 - GitHub
-<br><br>
+<br>
+<br>
 
 ## 手順
 
@@ -33,10 +40,11 @@ Git、Hugoの導入から、GitHub Pagesでの一般公開までの手順をま�
 
 1. Gitをインストール  
 2. Hugoをインストール  
-3. Hugoでサイトを作成（前編はここまで）  
+3. Hugoでサイトを作成 　**←今回はここまで**  
 4. GitHubへPush  
 5. GitHub Pagesで公開
-<br><br>
+<br>
+<br>
 
 ### 1. Gitをインストール
 
@@ -59,7 +67,8 @@ git --version
 ```powershell
 git version 2.55.0
 ```
-<br><br>
+<br>
+<br>
 
 ### 2. Hugoをインストール
 
@@ -90,7 +99,8 @@ hugo v0.165.0 ... +extended windows/amd64
 Sass/SCSSをCSSに変換するLibSassをサポートしているということで、Extended版をインストールしましたが、現在は、LibSass非推奨。  
 将来的に削除予定とのことです。  
 であれば、Standard版で問題なさそうです...  
-<br><br>
+<br>
+<br>
 
 ### 3. Hugoでサイトを作成
 
@@ -113,7 +123,9 @@ cd myblog               #myblogディレクトリへ移動
 git init                #Gitリポジトリとして初期化
 ```
 これで、ブログのフォルダ構成を作成できました。
-<br><br><br>
+<br>
+<br>
+<br>
 
 次に、デザインの手間を省くために、既存のテーマを使用するよう設定します。  
 <br>
@@ -133,7 +145,9 @@ title = 'アルドの備忘録'
 theme = 'ananke'
 ```
 これで、基本情報とテーマの設定は完了です。
-<br><br><br>
+<br>
+<br>
+<br>
 
 ここからは、実際にページの作成に取り掛かります。  
 <br>
@@ -144,7 +158,9 @@ Hugoコマンドで、新しいページを作成します。
 hugo new content posts/hello-world.md
 ```
 これで、ページの作成ができました。  
-<br><br><br>
+<br>
+<br>
+<br>
 
 それでは、実際にブラウザで確認してみましょう。  
 <br>
@@ -172,7 +188,9 @@ Press Ctrl+C to stop
 
 これで、新しいサイトを作成できました。  
 今後は、このhelloworld.mdを編集して、Webサイトの表示をカスタマイズしていきます。  
-<br><br><br>
+<br>
+<br>
+<br>
 
 ## まとめ
 初めてHugoを使用してみましたが、
@@ -182,17 +200,35 @@ Press Ctrl+C to stop
 
 と、非常にラクに、Webサイトの作成ができました。  
 HTMLで記述した際は、`<p>`や`<h1>`のようなタグをつけるのが面倒臭かったので、Markdownの方が、記述しやすいですね！
-<br><br>
+<br>
+<br>
 
 次回は、  
-HugoでWebサイトを作成し、GitHub Pagesで公開してみた（後編）  
+[HugoでWebサイトを作ってみた②｜GitHub Pagesで一般公開するまで](/posts/CreateWebPageSecond/)  
 で、  
 
 4. GitHubへPush  
 5. GitHub Pagesで公開  
 
 についてのまとめです。
-<br><br><br>
+<br>
+<br>
+<br>
+
+#### プロフィール
+
+<img src="/images/Aldo_Icon00.png" width="100">
+
+名前：アルド  
+職業：会社員  
+趣味：ゲーム・YouTube・旅行  
+
+<a href="/aboutme/" class="profile-button">
+    プロフィール詳細はこちら
+</a>
+<br>
+<br>
+<br>
 
 ## 最新の記事
 
