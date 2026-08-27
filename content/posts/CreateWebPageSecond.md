@@ -209,7 +209,7 @@ notepad .gitignore
 ```
 <br>
 
-下記のように、hugo.yamlに記述します。  
+下記のように、.gitignoreに記述します。  
 ```text
 /public/
 /resources/_gen/
@@ -218,8 +218,8 @@ notepad .gitignore
 <br>
 
 Publicは、Hugoがビルド時に生成する完成HTMLです。  
-Git Actionsが毎回生成してくれるため、管理対象から外します。  
-要するに、Git Actionsが作ってくれるから、こちらでソース管理しなくていいよね。だから除外するよってことです。  
+GitHub Actionsが毎回生成してくれるため、管理対象から外します。  
+要するに、GitHub Actionsが作ってくれるから、こちらでソース管理しなくていいよね。だから除外するよってことです。  
 <br>
 <br>
 
