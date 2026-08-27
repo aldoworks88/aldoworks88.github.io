@@ -10,7 +10,7 @@ description: "Windows環境でHugoを使ってWebサイトを作成する手順�
 
 Git、Hugoの導入から、Hugoを使ってWebサイトを作成する手順をまとめました。  
 次回の記事はこちら↓  
-[HugoでWebサイトを作ってみた②｜GitHub Pagesで一般公開するまで](/posts/CreateWebPageSecond/)  
+[HugoでWebサイトを作ってみた②｜GitHub Pagesで一般公開するまで](/posts/createwebpagesecond/)  
 <br>
 <br>
 
@@ -204,7 +204,7 @@ HTMLで記述した際は、`<p>`や`<h1>`のようなタグをつけるのが�
 <br>
 
 次回は、  
-[HugoでWebサイトを作ってみた②｜GitHub Pagesで一般公開するまで](/posts/CreateWebPageSecond/)  
+[HugoでWebサイトを作ってみた②｜GitHub Pagesで一般公開するまで](/posts/createwebpagesecond/)  
 で、  
 
 4. GitHubへPush  
