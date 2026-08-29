@@ -5,15 +5,14 @@ tags: ['Web制作', 'ブログ', 'Git', 'Hugo']
 featured_image: ""
 description: "Windows環境でHugoで作成したWebサイトに新しい記事を追加する方法をまとめました"
 ---
-<!--more-->
+
 ## この記事の内容
 
 Hugoで作成したWebサイトに新しい記事を作成し、公開する手順をまとめました。  
-Webサイトの作り方はこちら↓  
-[HugoでWebサイトを作ってみた①｜Windowsでサイトを作成するまで](/posts/createwebpagefirst/)
+Webサイトの作り方は[こちら](/posts/createwebpagefirst/)
 <br>
 <br>
-
+<!--more-->
 
 
 ## はじめに
