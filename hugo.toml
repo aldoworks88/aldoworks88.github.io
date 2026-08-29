@@ -10,4 +10,4 @@ theme = 'ananke'
 
 [params]
   [params.ananke]
-    show_recent_posts = true
+    show_recent_posts = false
