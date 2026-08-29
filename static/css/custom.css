@@ -28,3 +28,13 @@ li {
     border: 2px solid black;
 }
 
+/* 本文中のインラインコードだけ装飾 */
+p code,
+li code {
+    padding: 2px 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+}
+
+

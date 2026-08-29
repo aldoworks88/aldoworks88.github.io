@@ -86,7 +86,7 @@ git push -u origin main                                                         
 ブランチやリポジトリについては、今回は深く考えません。  
 <br>
 
-なお、**git push -u origin main**とすることで、次回以降の更新時、**git push**でプッシュできるようになります。
+なお、`git push -u origin main`とすることで、次回以降の更新時、`git push`でプッシュできるようになります。
 <br>
 <br>
 
